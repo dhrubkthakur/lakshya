@@ -9,6 +9,9 @@ import org.apache.http.entity.StringEntity
 import org.apache.http.impl.client.HttpClientBuilder
 import org.apache.http.util.EntityUtils
 
+/**
+ * HTTP Client refers to Rest client and will hold all purpose of Rest operation needed for Lakshya
+ */
 class httpClient extends Loggable with Config{
 
   val httpBuilder = RequestConfig
